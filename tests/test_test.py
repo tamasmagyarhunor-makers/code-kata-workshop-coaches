@@ -1,3 +1,3 @@
 def test_test():
-    assert True, "YES IT PASSES"
+    assert True
     print("✅", end=" ")
