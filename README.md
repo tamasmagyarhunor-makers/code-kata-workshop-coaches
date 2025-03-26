@@ -67,6 +67,25 @@ def battle_of_chars():
 > "Now it’s your turn. Here’s a new function called `name_initials`, and a test suite that defines what it should do."
 
 ```python
+# Setting up
+## create a virtual environment for this project
+$ python3 -m venv venv
+
+## Enter the virtual environment
+$ source venv/bin/activate
+
+## Install pytest
+$ pip install pytest
+
+## Run the tests
+$ pytest tests/test_name_initials.py -v
+
+## Edit the lib/name_initials.py file until test passes
+```
+
+
+
+```python
 from lib.name_initials import name_initials
 
 def test_name_initials():
